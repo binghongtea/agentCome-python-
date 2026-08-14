@@ -27,6 +27,7 @@
 # print(max_num)
 
 # rabbit = 2
+
 # week = 1
 # while week < 10:
 #     rabbit = rabbit + rabbit * 2
