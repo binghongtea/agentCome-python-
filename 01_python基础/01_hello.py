@@ -9,3 +9,7 @@ name = 'name'
 result = var1 + var2 + var3
 print(result)
 print(name)
+
+num = 100
+def add(a, b):
+    return a + b
