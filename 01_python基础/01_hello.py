@@ -1,3 +1,5 @@
+import sys
+
 print('hello world')
 
 print("""hello
@@ -13,3 +15,5 @@ print(name)
 num = 100
 def add(a, b):
     return a + b
+
+print(sys.version)
