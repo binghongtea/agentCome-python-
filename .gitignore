@@ -1,0 +1,30 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and generated metadata
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+~$*
+
+# Agent outputs
+/02_llm基础/workspace/
+
+# Build output, deployment archives and database backups
+node_modules/
+/build/
+/dist/
+/deploy/order-demo/web/dist/
+/deploy/*.tar.gz
+/deploy/order-demo/backups/
